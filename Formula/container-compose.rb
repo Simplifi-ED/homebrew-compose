@@ -1,10 +1,10 @@
 class ContainerCompose < Formula
   desc "Apple Container CLI compose plugin"
   homepage "https://github.com/Simplifi-ED/compose"
-  url "https://github.com/Simplifi-ED/compose/releases/download/v0.0.1-rc2/compose-plugin.tar.gz"
-  version "0.0.1-rc2"
+  url "https://github.com/Simplifi-ED/compose/releases/download/v0.0.1/compose-plugin.tar.gz"
+  version "0.0.1"
   # Replaced automatically by the release workflow on each tag.
-  sha256 "54197df7e9316a318c06c385e607244a86e1a3ce7f35e08f9b346a89889fbd76"
+  sha256 "d8886c221811a0d0dbe3093960eb28c64745dcc332ff3d7f7f0f503973ed7c35"
   license "Apache-2.0"
 
   depends_on macos: :sequoia
